@@ -1,0 +1,11 @@
+<package format="3">
+  <name>mig_bot</name>
+  <version>0.0.1</version>
+  <description>MIG Bot package</description>
+  <maintainer email="__@__.com">Stephen</maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>r2r</build_depend>
+  <exec_depend>r2r</exec_depend>
+</package>
