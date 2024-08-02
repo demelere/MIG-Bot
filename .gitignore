@@ -1,0 +1,78 @@
+# Ignore build directories
+/build/
+/bin/
+/obj/
+/out/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore compiled object files
+*.o
+*.obj
+*.lo
+*.la
+*.al
+
+# Ignore compiled dynamic libraries
+*.dll
+*.so
+*.dylib
+
+# Ignore compiled static libraries
+*.lib
+*.a
+
+# Ignore executable files
+*.exe
+*.out
+*.app
+
+# Ignore debug files
+*.dSYM/
+*.stackdump
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.log
+*.pid
+*.seed
+
+# Ignore backup files
+*.bak
+*.old
+*.orig
+*.swp
+*.swo
+*.swn
+
+# Ignore IDE specific files
+.idea/
+*.iml
+
+# Ignore CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore other build system files
+*.make
+*.ninja
+*.mk
+
+# Ignore coverage files
+*.gcno
+*.gcda
+*.gcov
+
+# Ignore clangd index
+.clangd/
+
+# Ignore Eigen library (if included in the project)
+eigen/
+
+# Ignore other system-specific files
+.DS_Store
+Thumbs.db
